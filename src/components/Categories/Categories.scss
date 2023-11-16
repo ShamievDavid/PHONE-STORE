@@ -3,6 +3,7 @@
 .categories {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 
   @include tablet {
     align-items: center;

@@ -2,6 +2,7 @@
 
 .search {
   display: none;
+  cursor: pointer;
 
   @include tablet {
     @include flex-center;

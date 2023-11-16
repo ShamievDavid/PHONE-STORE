@@ -5,6 +5,11 @@
   flex-direction: column;
   min-height: 80vh;
   min-width: 100%;
+  min-width: ($product-width * 4) + ($product-gap * 3);
+
+  @include tablet {
+    min-width: ($product-width * 2) + ($product-gap);
+  }
 
   &__path-container {
     margin-top: 24px;
