@@ -2,8 +2,8 @@ import './FooterNavigation.scss';
 
 const links = {
   github: 'https://github.com/ShamievDavid',
-  contacts: 'https://davydshamiiev.netlify.app',
-  rights: 'https://davydshamiiev.netlify.app',
+  contacts: 'https://davidshamiev.netlify.app',
+  rights: 'https://davidshamiev.netlify.app',
 };
 
 export const FooterNavigation = () => {
